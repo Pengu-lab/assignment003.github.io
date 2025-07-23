@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/laptop.css"/>
+    <link rel = "stylesheet" href = "css/tablet.css">
+    <link rel = "stylesheet" href = "css/mobile.css">
+    <link rel = "stylesheet" href = "css/font.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Assignment02</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="images/banner.jpg" alt="banner_img" class="banner-img" />
+      <div class = "floating_divs">
+        <div id = "centering-text">
+          <h1 id="name">Nguyễn Văn A</h1>
+          <div id = "job_cover">
+            <h2 id="job">Full Stack Developer</h2>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <div class="navigation">
+      <div class="navigation_details side_details">
+        <i class="icon-user nav_icons"></i> Thông tin
+      </div>
+
+      <div class="navigation_details side_details">
+        <i class="icon-doc-text-inv nav_icons"></i> Lý lịch
+      </div>
+
+      <div class="navigation_details middle_text">
+        <h2 class="details_name">Nguyễn Văn A</h2>
+        <p class="jobs_name">Full Stack Developer</p>
+      </div>
+
+      <div class="navigation_details side_details">
+        <i class="icon-mail-alt nav_icons"></i> Chứng chỉ
+      </div>
+
+      <div class="navigation_details side_details" id="final_detail">
+        <i class="icon-star-1 nav_icons"></i> Dự án
+      </div>
+    </div>
+
+    <div class="personal_details">
+      <div class="goals">
+        <h2 class="small_section_title">Mục tiêu nghề nghiệp</h2>
+        <p class="smaller_details">
+          Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp của
+          FUNiX. Em mong muốn mình sẽ được làm việc với vị trí Fullstack
+          Developer, có thể vận dụng được những kiến thức đã được trau dồi và
+          không ngừng học hỏi để phát triển bản thân cũng như hoàn thành tốt
+          nhất công việc được giao.
+        </p>
+      </div>
+
+      <div class="contacts">
+        <h2 class="small_section_title">Thông tin cá nhân</h2>
+        <div class="overlay smaller_details hide">
+          <p class="traits"><b class="attribute">Giới tính:</b>Nam</p>
+          <p class="traits"><b class="attribute">Ngày sinh:</b>19/5/2000</p>
+          <p class="traits">
+            <b class="attribute">Điện thoại:</b>(+84) 912398xxx
+          </p>
+          <p class="traits">
+            <b class="attribute">Email:</b>sinhvien@funix.edu.vn
+          </p>
+          <p class="traits">
+            <b class="attribute">Địa chỉ:</b>Hà Nội, Việt Nam
+          </p>
+          <p class="traits">
+            <b class="attribute">Website:</b>https://abc.tech
+          </p> 
+        </div>
+        <div class = "email_box">
+          <form class = "submit_form">
+            <input class = "email" type = "text" placeholder = "Enter email" name = "email" required>
+            <p class = "request_text">Please enter your email</p>
+
+            <button class = "submit_btn">Submit</button>
+          </form>
+        </div>
+        <div class="media_container">
+          <i class="icon-twitter media_icon"></i>
+          <i class="icon-facebook media_icon"></i>
+          <i class="icon-gplus media_icon"></i>
+          <i class="icon-linkedin media_icon"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- GRID BOX SECTION -->
+    <div class = "flex_box">
+      <div class="career_explanation">
+        <div id="experience" class = "general_box mutual">
+          <div class="top_section resolute">
+            <div>
+              <p class = "inline_text">Kinh nghiệm</p>
+            </div>
+            <div class = "resolution">
+              <i class="ic-toolbox features_icon"></i>
+            </div>
+          </div>
+          <div class="bottom_section hide bot">
+            <ul>
+              <li>
+                <p class = "job_title">Full Stack Developer - Công ty Y</p>
+                <div class = "timeline with_borders">05/2022 - &nbsp; <p id = "curved_corners">Hiện tại</p></div>
+                <!-- Style later -->
+                - Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã có.
+                <br />- Phân tích và thiết kế Database, sử dụng các hệ quản trị
+                CSDL (MySQL, SQLSERVER, NOSQL, ... ) và viết được các câu truy
+                vấn. <br />- Sử dụng ngôn ngữ server-side (Python, Java,...) để
+                xây dựng các Web Service
+              </li>
+
+              <li>
+                <p class = "job_title">Web Designer - Công ty X</p>
+                <p class = "timeline">06/2021 - 04/2022</p>
+                - Thiết kế Website dự trên yêu cầu của khách hàng. 
+                </br>-Sử dụng các công cụ: Figma, Canva, PTS.
+              </li>
+            </ul>            
+          </div>
+          <p class = "viewmore hide">View more</p>
+          <p class = "viewless hide">View less</p>
+        </div>
+
+        <div id="education" class = "general_box mutual">
+          <div class="top_section resolute">
+            <div>
+              <p class = "inline_text">Học vấn</p>
+            </div>
+            <div class = "resolution">
+              <i class="ic-pencil features_icon"></i>
+            </div>
+          </div>
+          <div class="bottom_section hide bot">
+            <ul>
+              <li>
+                <p class = "job_title">FUNiX</p>
+                <p class = "timeline">06/2021 - 05/2022</p>
+                <!-- Style later -->
+                - Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.
+                <br>- GPA: 9/10
+              </li>
+
+              <li>
+                <p class = "job_title">Cử nhân - ĐH FPT</p>
+                <p class = "timeline">08/2016 - 07/2019</p>
+                - Chuyên ngành kỹ thuật phầm mềm
+                <br>- GPA: 3.2/4
+              </li>
+
+              <li>
+                <p class = "job_title">Đại học Hà Nội</p>
+                <p class = "timeline">08/2016 - 02/2018</p>
+                - Hệ từ xa, Chuyên nghành: Ngôn ngữ Nhật
+                <br>- GPA: 2.8/4
+              </li>
+            </ul>            
+          </div>
+          <p class = "viewmore hide">View more</p>
+          <p class = "viewless hide">View less</p>
+        </div>
+        
+        <div id="extracurricular" class = "general_box mutual">
+          <div class="top_section ">
+            <div class="top_section resolute">
+              <div>
+                <p class = "inline_text">Hoạt động</p>
+              </div>
+              <div class = "resolution">
+                <i class="ic-toolbox features_icon"></i>
+              </div>
+            </div>
+          </div>
+          <div class="bottom_section hide bot">
+            <ul>
+              <li>
+                <p class = "job_title">Fpt Edu Hackathon 2018</p>
+                <p class = "timeline">03/2019 - 05/2019</p>
+                <!-- Style later -->
+                - Giải 3 bảng A
+                <br>- Đề tài: Trang web về phân loại rác thải.
+              </li>
+
+              <li>
+                <p class = "job_title">Câu lạc bộ Z</p>
+                <p class = "timeline">08/2016 - 08/2019</p>
+                - Trưởng ban chuyên môn
+              </li>
+
+              <li>
+                <p class = "job_title">Câu lạc bộ Z</p>
+                <p class = "timeline">08/2016</p>
+                - Hỗ trợ tổ chức tuần lễ văn hóa Việt Nam- Nhật Bản.
+              </li>
+            </ul>
+          </div>
+          <p class = "viewmore hide">View more</p>
+          <p class = "viewless hide">View less</p>
+        </div>
+
+        <div id="hobbies" class = "general_box mutual">
+          <div class="top_section resolute">
+            <div>
+              <p class = "inline_text">Sở thích</p>
+            </div>
+            <div class = "resolution">
+              <i class="ic-telescope features_icon"></i>
+            </div>
+          </div>
+          <div class="hobbies_details hide bot">
+            <div class = "fav_action">
+              <div class = "third_icon">
+                <i class="ic-megaphone "></i>
+              </div>
+              <p class = "favorite">Âm nhạc</p>
+            </div>
+            <div class = "fav_action">
+              <div class = "third_icon">
+                <i class="ic-hotairballoon"></i>
+              </div>
+              <p class = "favorite">Du lịch</p>
+            </div>
+            <div class = "fav_action">
+              <div class = "third_icon">
+                <i class="ic-strategy "></i>
+              </div>
+              <p class = "favorite">Chơi Game</p>
+            </div>
+            <div class = "fav_action">
+              <div class = "third_icon">
+                <i class="ic-basket "></i>
+              </div>
+              <p class = "favorite">Nấu ăn</p>
+            </div>            
+          </div>
+          <p class = "viewmore hide">View more</p>
+          <p class = "viewless hide">View less</p>
+        </div>
+
+        <div id="languages" class = "general_box mutual">
+          <div class="top_section resolute">
+            <div>
+              <p class = "inline_text">Kỹ năng</p>
+            </div>
+            <div class = "resolution">
+              <i class="ic-mic features_icon"></i>
+            </div>
+          </div>
+          <div class = "skills_part hide bot">
+            <p class = "skills_section">HTML/CSS: Fundamental</p>
+            <div class = "span_container">
+              <span class = "blue_color"></span>
+              <span class = "grey_color"></span>
+              <span class = "grey_color"></span>
+            </div>
+            <p class = "skills_section">Javascript: Intermediate</p>
+            <div class = "span_container">
+              <span class = "blue_color"></span>
+              <span class = "blue_color"></span>
+              <span class = "grey_color"></span>
+            </div>
+            <p class = "skills_section">NodeJS: Intermediate</p>
+            <div class = "span_container">
+              <span class = "blue_color"></span>
+              <span class = "blue_color"></span>
+              <span class = "grey_color"></span>
+            </div>
+            <p class = "skills_section">Bootstrap 5: Fundamental</p>
+            <div class = "span_container">
+              <span class = "blue_color"></span>
+              <span class = "grey_color"></span>
+              <span class = "grey_color"></span>
+            </div>
+          </div>
+          <p class = "viewmore hide">View more</p>
+          <p class = "viewless hide">View less</p>
+        </div>
+
+        <div id="skills" class = "general_box mutual">
+          <div class="top_section resolute">
+            <div>
+              <p class = "inline_text">Ngôn ngữ</p>
+            </div>
+            <div class = "resolution">
+              <i class="ic-tools-2 features_icon"></i>
+            </div>
+          </div>
+          <div class = "skills_part hide bot">
+            <p class = "skills_section">English - Ilets 7.0</p>
+            <div class = "span_container">
+              <span class = "blue_color"></span>
+              <span class = "blue_color"></span>
+              <span class = "grey_color"></span>
+            </div>
+            <p class = "skills_section">Japanese - N3</p>
+            <div class = "span_container">
+              <span class = "blue_color"></span>
+              <span class = "blue_color"></span>
+              <span class = "blue_color"></span>
+            </div>
+          </div>
+          <p class = "viewmore hide">View more</p>
+          <p class = "viewless hide">View less</p>
+        </div>
+      </div>
+    </div>
+
+    <div class = "achievements">
+        
+        <div class = "flexbox_container">
+          
+          <div class = "certificate">
+            <h2 class = "achieve_title">Chứng chỉ - Giải thưởng</h2>
+            <div class = "awards_details right_border">
+              <img src = "images/Cert_DBI.png" alt = "certificate_picture" class = "certificate_img">
+              <div class = "cert_description">
+                <p class = "des_title">Chứng chỉ lập trình Web - FUNIX</p>
+                <p class = "des_text">- Chứng chỉ thuộc chương trình CCDN
+                  <br>- GPA: 8.6
+                </p>
+              </div>
+            </div>
+            <div class = "second_border"></div>
+            <div class = "awards_details">
+              <img src = "images/Cert_PRF.png" alt = "certificate_picture" class = "certificate_img">
+              <div class = "cert_description">
+                <p class = "des_title">Chứng chỉ lập trình Javascript - FUNIX</p>
+                <p class = "des_text">- Chứng chỉ thuộc chương trình CCDN
+                  <br>- GPA: 8.9
+                </p>
+              </div>
+            </div>
+            <div class = "row_border"></div>
+            <div class = "awards_details">
+              <img src = "images/Cert_WEB.png" alt = "certificate_picture" class = "certificate_img">
+              <div class = "cert_description">
+                <p class = "des_title">Chứng chỉ thiết kế database - FUNIX</p>
+                <p  class = "des_text">- Chứng chỉ thuộc chương trình CCDN
+                  <br>- GPA: 8.0
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class = "flex_box">
+      <div class = "project">
+        <h2 class = "achieve_title no_pad">Dự án</h2>
+          <!-- FIRST -->
+        <div class = "grid">
+
+          <div class = "test">
+            <img src="images/project_1.png"alt = "project_img" class = "project_img">
+              <div class = "project_text">CV cá nhân</div>
+              <div class = "text_box">
+                  <div class = "middle_element">
+                    <div class = "sidetoside_element">
+                      <p class = "curved_borders ">2021</p>
+                    </div>
+                    <div class = "sidetoside_element"><i class="icon-user-1"></i> FUNiX</div>
+                    <div class = "sidetoside_element"><i class="icon-lamp"></i>Developer</div>
+                  </div>
+              </div>
+
+                  
+              <table class = "table">
+                <tr>
+                  <th class = "first_element">Mô tả</th>
+                  <th class = "second_element">Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng như kỹ năng nghề nghiệp</th>
+                </tr>
+
+                <tr>
+                  <th class = "first_element">Nhiệm vụ</th>
+                  <th class = "second_element"> - Phát triển code - Review code - Tối ưu code - Xử lý lỗi</th>
+                </tr>
+
+                <tr>
+                  <th class = "first_element">Công nghệ</th>
+                  <th class = "second_element">- HTML, CSS </th>
+                </tr>
+              </table>     
+          </div>
+          
+          <div class = "test">
+            <img src="images/project_2.png"alt = "project_img" class = "project_img">
+            <div class = "project_text">Trang web quản lý thú cưng</div>
+            <div class = "text_box">
+              <div class = "middle_element">
+                <div class = "sidetoside_element">
+                  <p class = "curved_borders ">2021</p>
+                </div>
+                <div class = "sidetoside_element"><i class="icon-user-1"></i> FUNiX</div>
+                <div class = "sidetoside_element"><i class="icon-lamp"></i>Developer</div>
+              </div>
+            </div>
+              <!-- <div> -->
+            <table class = "table">
+              <tr>
+                <th class = "first_element">Mô tả</th>
+                <th class = "second_element">Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân nặng, giống, tình trạng tiêm chủng, ... Bao gồm các chứng năng thêm / sửa / xóa.</th>
+              </tr>
+
+              <tr>
+                <th class = "first_element">Nhiệm vụ</th>
+                <th class = "second_element">- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</th>
+              </tr>
+
+              <tr>
+                <th class = "first_element">Công nghệ</th>
+                <th class = "second_element">- HTML, CSS, JAVASCRIPT </th>
+              </tr>
+            </table>
+              <!-- </div> -->
+          </div>
+          
+          <div class = "test">
+            <img src="images/project_3.png"alt = "project_img" class = "project_img">
+            <div class = "project_text">Trang web xem tin tức</div>
+            <div class = "text_box">
+              <div class = "middle_element">
+                <div class = "sidetoside_element">
+                  <p class = "curved_borders ">2021</p>
+                </div>
+
+                <div class = "sidetoside_element"><i class="icon-user-1"></i> FUNiX</div>
+                <div class = "sidetoside_element"><i class="icon-lamp"></i>Developer</div>
+              </div>
+            </div>
+      
+              <table class = "table">
+                <tr>
+                  <th class = "first_element">Mô tả</th>
+                  <th class = "second_element">Trang Web xem tin tức từ nhiều nguồn khác nhau, người dùng có thể tìm kiếm các tin tức dựa theo các từ khóa</th>
+                </tr>
+
+                <tr>
+                  <th class = "first_element">Nhiệm vụ</th>
+                  <th class = "second_element">- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</th>
+                </tr>
+
+                <tr>
+                  <th class = "first_element">Công nghệ</th>
+                  <th class = "second_element">- HTML, CSS, JAVASCRIPT </th>
+                </tr>
+              </table>
+          </div>
+        
+        </div> 
+      </div>
+    </div>
+
+    <div id = "flex_container">
+      <div class = "communication">
+        <div class = "side_by_side"><i class="icon-facebook-circled icon_final"></i> Facebook</div>
+        <div class = "side_by_side"><i class="icon-linkedin-circled icon_final"></i> Linkedin</div>
+        <div class = "side_by_side"><i class="icon-github-circled icon_final"></i> Github</div>
+      </div>
+    </div>
+    <script src = "script/script.js"></script>
+  </body>
+</html>
