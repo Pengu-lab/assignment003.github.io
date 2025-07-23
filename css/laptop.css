@@ -105,7 +105,7 @@ ul li::before {
   height: 1.5rem !important; /* Circle diameter */
   background-color: #00a0e3 !important; /* Circle color */
   border-radius: 50%;
-  border: 0.2rem solid #f5f0e6 !important;
+  border: 0.4rem solid #f5f0e6 !important;
 }
 
 /* Specific Styles, first section */
