@@ -188,6 +188,8 @@ ul li::before {
 .details_name {
   font-family: "open_sansregular", sans-serif;
   font-weight: 500;
+  font-size: 2.7rem;
+  margin: 0;
 }
 
 .jobs_name {
@@ -195,6 +197,7 @@ ul li::before {
   font-size: 1.2rem;
   color: #cccccc;
   font-family: "open_sanslight", "sans-serif";
+  margin: 0;
 }
 
 .side_details {
@@ -612,9 +615,11 @@ ul li::before {
 .viewmore {
   color: #0000ff;
   text-decoration: underline;
+  margin: 0;
 }
 
 .viewless {
   color: #0000ff;
   text-decoration: underline;
+  margin: 0;
 }
