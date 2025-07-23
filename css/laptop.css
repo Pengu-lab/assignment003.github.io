@@ -103,9 +103,9 @@ ul li::before {
   transform: translateY(-50%);
   width: 0.8rem; /* Circle diameter */
   height: 0.8rem; /* Circle diameter */
-  background-color: #00a0e3; !important /* Circle color */
+  background-color: #00a0e3 !important; /* Circle color */
   border-radius: 50%;
-  border: 0.4rem solid #f5f0e6;
+  border: 0.4rem solid #f5f0e6 !important;
 }
 
 /* Specific Styles, first section */
