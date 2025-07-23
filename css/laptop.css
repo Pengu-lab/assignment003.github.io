@@ -101,11 +101,11 @@ ul li::before {
   left: 0;
   top: 8%;
   transform: translateY(-50%);
-  width: 1.5rem; /* Circle diameter */
-  height: 1.5rem; /* Circle diameter */
-  background-color: #00a0e3; /* Circle color */
+  width: 1.5rem !important; /* Circle diameter */
+  height: 1.5rem !important; /* Circle diameter */
+  background-color: #00a0e3 !important; /* Circle color */
   border-radius: 50%;
-  border: 0.2rem solid #f5f0e6;
+  border: 0.2rem solid #f5f0e6 !important;
 }
 
 /* Specific Styles, first section */
